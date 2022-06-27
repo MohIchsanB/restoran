@@ -1,8 +1,10 @@
 package restoran;
 public class pecel extends menu {
     
-    
+    //inisialisasi variabel hargaSatuan
     public int hargaSatuan = 8000;
+    
+    //constructor
     public pecel(){}
 
      //ARRAY OF OBJECT
@@ -12,7 +14,6 @@ public class pecel extends menu {
     }
    
     //SETTER
-    
     public void setKode(int kode){
         this.kode = kode;
     }
