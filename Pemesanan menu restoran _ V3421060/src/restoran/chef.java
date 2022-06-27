@@ -2,12 +2,12 @@ package restoran;
 
 // CLASS Object
 public class chef {
-    private int chefId; //variabel / attribut
+    private int chefId; //variabel 
     private String name;
     
-	
+//constructor	
 public chef(int id,String nama)
-   { //method assesor
+   { 
        this.chefId=id;
 	   this.name=nama;
 	   
