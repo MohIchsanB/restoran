@@ -5,7 +5,7 @@ package restoran;
 //Abstract class & method
 public abstract class menu {
 
-
+    //deklarasi variabel 
     public String nama;
     public double diskon;
     public int  hargaSatuan,jumlah, kode;
@@ -13,37 +13,31 @@ public abstract class menu {
     //variabel static
     public static int jumlahUang ;
 
+    //constructor
     public menu(){
       
     }
 
     //SETTER
-    
     protected abstract void setKode(int kode);
-    
-    
     protected abstract void setDiskon(int diskon);
-    
     protected abstract void setJumlah(int jumlah);
-    
     protected abstract void setJumlahUang(int jumlahUang);
     
     
     
     //GETTER
     protected abstract String getNama();
-    
-    protected abstract int getKode();
-   
+    protected abstract int getKode();  
     protected abstract double getDiskon();
-    
     protected abstract int getJumlah();
     
     //method static
     public static int getJumlahUang(){
         return jumlahUang;
     }
-    
+
+    //deklarasi abstract method
     protected abstract int getHargaSatuan();
 
      //PROSES
