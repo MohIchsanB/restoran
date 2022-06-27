@@ -18,7 +18,7 @@ public abstract class menu {
       
     }
 
-    //SETTER
+    //SETTER / muttator
     protected abstract void setKode(int kode);
     protected abstract void setDiskon(int diskon);
     protected abstract void setJumlah(int jumlah);
@@ -26,7 +26,7 @@ public abstract class menu {
     
     
     
-    //GETTER
+    //GETTER /assesor
     protected abstract String getNama();
     protected abstract int getKode();  
     protected abstract double getDiskon();
