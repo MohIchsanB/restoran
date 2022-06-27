@@ -1,9 +1,10 @@
 package restoran;
 public class bakso extends menu {
     
-    
+    //inisialisai variabel hargaSatuan
     public int hargaSatuan = 15000;
-
+    
+    //constructor
     public bakso(){}
 
      //ARRAY OF OBJECT
